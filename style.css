@@ -75,6 +75,7 @@ form {
   line-height: 16px;
   text-align: left;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -89,6 +90,7 @@ form {
   background-color: white;
   border: 1px solid rgba(231, 234, 238, 1);
   box-sizing: border-box;
+  padding-bottom: 15px;
 }
 .heading {
   font-family: Poppins;
@@ -116,6 +118,7 @@ input {
   box-sizing: border-box;
   padding: 10px;
   background: rgba(247, 248, 249, 1);
+  margin: 10px 0;
 }
 .b {
   width: 360px;
@@ -135,11 +138,11 @@ input {
 }
 .b3 {
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 img {
-  width: 20px;
-  height: 20px;
-  background-color: black;
 }
 .loginn {
   color: rgba(16, 185, 129, 1);
