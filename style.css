@@ -4,26 +4,26 @@
 }
 .boundary{
     background-color: rgb(15, 15, 79);
-    height: 90px;
     display: flex;
     
 }
 .button{
-    padding:  15px;
     background-color: white;
      border: 3px solid white; 
-    border-radius :10px 100px / 120px;
-    padding-bottom: 30px;
+    border-radius :0 10px;
     margin: 20px; 
+     padding:5px; 
+    box-sizing: border-box;
+    
     
 }
 .button:hover{
-    padding:  15px;
     background-color: white;
      outline: 6px solid rgb(88, 200, 213); 
-    border-radius :100px 10px / 120px;
-    padding-bottom: 30px;
+    border-radius : 10px 0 ;
     margin: 20px; 
+    transition: all 2s;
+
     
 }
 .button1{
@@ -37,16 +37,16 @@
      margin-top: 20px;
      margin-left: 20px;
      border: 5px solid rgb(189, 104, 47);
-     transition: all 200ms;
+     transition: all 2s;
+     box-sizing: border-box;
 
 }
 .circle:hover{
-    height: 35px;
-     width: 35px;
+    
     border: 8px dashed rgb(215, 134, 81);
 }
 .input{
-    height: 45px;
+    height: 35px;
     margin-top:20px ;
     margin-left: 20px;
     margin-right: 20px;
@@ -54,6 +54,10 @@
     flex-shrink: 1;
     flex-basis:400px;
     border-radius: 15px;
+    outline: none;
+    padding: 10px;
+    border:none;
+    box-sizing: border-box;
 
 }
 .material-icons1{
