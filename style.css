@@ -1,73 +1,154 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.boundary{
-    background-color: rgb(15, 15, 79);
-    display: flex;
-    
+body {
+  background: rgba(247, 248, 249, 1);
 }
-.button{
-    background-color: white;
-     border: 3px solid white; 
-    border-radius :0 10px;
-    margin: 20px; 
-     padding:5px; 
-    box-sizing: border-box;
-    
-    
+.boundary {
+  background-color: rgb(15, 15, 79);
+  display: flex;
 }
-.button:hover{
-    background-color: white;
-     outline: 6px solid rgb(88, 200, 213); 
-    border-radius : 10px 0 ;
-    margin: 20px; 
-    transition: all 2s;
-
-    
+.button {
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 0 10px;
+  margin: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
-.button1{
-    margin-left: 20px;
+.button:hover {
+  background-color: white;
+  outline: 6px solid rgb(88, 200, 213);
+  border-radius: 10px 0;
+  margin: 20px;
+  transition: all 2s;
 }
-.circle{
-    height: 42px;
-     width: 42px;
-     background-color: rgb(56, 100, 56);
-     border-radius: 50%;
-     margin-top: 20px;
-     margin-left: 20px;
-     border: 5px solid rgb(189, 104, 47);
-     transition: all 2s;
-     box-sizing: border-box;
-
+.button1 {
+  margin-left: 20px;
 }
-.circle:hover{
-    
-    border: 8px dashed rgb(215, 134, 81);
+.circle {
+  height: 42px;
+  width: 42px;
+  background-color: rgb(56, 100, 56);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 5px solid rgb(189, 104, 47);
+  transition: all 2s;
+  box-sizing: border-box;
 }
-.input{
-    height: 35px;
-    margin-top:20px ;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    flex-shrink: 1;
-    flex-basis:400px;
-    border-radius: 15px;
-    outline: none;
-    padding: 10px;
-    border:none;
-    box-sizing: border-box;
-
+.circle:hover {
+  border: 8px dashed rgb(215, 134, 81);
 }
-.material-icons1{
-margin-top:30px ;
-background-color: white;
-height: 30px;
-outline: none;
-border: none;
+.input {
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-shrink: 1;
+  flex-basis: 400px;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  box-sizing: border-box;
 }
-.material-icons2{
-    margin-top:30px ;
-    background-color: white;
-    height: 30px;}
+.material-icons1 {
+  margin-top: 30px;
+  background-color: white;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+.material-icons2 {
+  margin-top: 30px;
+  background-color: white;
+  height: 30px;
+}
+form {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 728px;
+  width: 520px;
+  border-radius: 40px;
+  padding: 40px 80px 40px 80px;
+  position: absolute;
+  top: 80px;
+  left: 400px;
+  background-color: white;
+  border: 1px solid rgba(231, 234, 238, 1);
+  box-sizing: border-box;
+}
+.heading {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(25, 29, 35, 1);
+  display: flex;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+.inputcontainer {
+  width: 360 px;
+  height: 336 px;
+  gap: 16px;
+  left: 400px;
+}
+input {
+  width: 360px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(247, 248, 249, 1);
+}
+.b {
+  width: 360px;
+  max-height: 152px;
+  padding: 16px 8px;
+  border-radius: 35px;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.b1 {
+  background-color: rgba(16, 185, 129, 1);
+}
+.b3 {
+  background-color: black;
+}
+img {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+.loginn {
+  color: rgba(16, 185, 129, 1);
+}
+.b2 {
+  background: white;
+  color: rgba(100, 116, 139, 1);
+}
+.lastline {
+  display: flex;
+  justify-content: center;
+}
