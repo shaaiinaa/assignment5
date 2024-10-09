@@ -39,8 +39,10 @@
      border: 5px solid rgb(189, 104, 47);
 }
 .circle:hover{
+    height: 47px;
+     width: 47px;
     border: 8px dashed rgb(189, 104, 47);
-    transition: all 2s;
+    transition: all 4s;
 }
 .input{
     height: 30px;
