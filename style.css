@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.boundary{
+    background-color: rgb(15, 15, 79);
+    height: 90px;
+    display: flex;
+    
+}
+.button{
+    padding:  15px;
+    background-color: white;
+     border: 3px solid white; 
+    border-radius :10px 100px / 120px;
+    padding-bottom: 30px;
+    margin: 20px; 
+    
+}
+.button:hover{
+    padding:  15px;
+    background-color: white;
+     border: 6px solid rgb(88, 200, 213); 
+    border-radius :100px 10px / 120px;
+    padding-bottom: 30px;
+    margin: 20px; 
+    
+}
+.button1{
+    margin-left: 20px;
+}
+.circle{
+    height: 50px;
+     width: 50px;
+     background-color: rgb(56, 100, 56);
+     border-radius: 50%;
+     margin-top: 15px;
+     margin-left: 20px;
+     border: 5px solid rgb(189, 104, 47);
+}
+.circle:hover{
+    border: 8px dashed rgb(189, 104, 47);
+    transition: all 2s;
+}
+.input{
+    height: 30px;
+    margin-top:28px ;
+    display: flex;
+    flex-shrink: 1;
+    flex-basis:400px;
+
+}
+.material-icons1{
+margin-top:30px ;
+background-color: white;
+height: 30px;
+outline: none;
+border: none;
+}
+.material-icons2{
+    margin-top:30px ;
+    background-color: white;
+    height: 30px;}
