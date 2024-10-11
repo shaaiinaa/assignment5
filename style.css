@@ -106,9 +106,8 @@ form {
   color: rgba(25, 29, 35, 1);
   display: flex;
   justify-content: center;
-  margin-bottom: 18px;
   position: absolute;
-  top: 35px;
+  top: 25px;
   cursor: default;
 }
 .inputcontainer {
